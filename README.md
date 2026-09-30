@@ -9,7 +9,8 @@ Análise da receita da empresa Contoso por categoria de produto, região e canal
 "A empresa quer entender quais categorias de produtos e regiões geram mais receita em cada canal (canal físico x canal online) e o que esses resultados indicam sobre onde a empresa deveria investir."
 
 ## Base de dados e ferramentas
-- **Base:** ContosoRetailDW (tabelas `FactSales` e `FactOnlineSales`)
+- **Base:** ContosoRetailDW (tabelas FactSales e FactOnlineSales;dimensões DimProduct, DimProductSubcategory, DimProductCategory, DimStore e DimGeography)
+)
 - **Ferramenta:** SQL Server
 - **Técnicas:** `JOIN`, `UNION ALL`, CTE e window function (`SUM() OVER ()`)
 - **Métrica:** receita (`SalesAmount`), em US$
