@@ -5,6 +5,8 @@
 
 Análise da receita da empresa Contoso por categoria de produto, região e canal de venda (canal físico e canal online), com o objetivo de indicar onde a empresa pode avaliar investimentos.
 
+![Dashboard](painel.png)
+
 ## Demanda
 
 "A empresa quer entender quais categorias de produtos e regiões geram mais receita em cada canal (canal físico x canal online) e o que esses resultados indicam sobre onde a empresa deveria investir."
