@@ -1,9 +1,10 @@
-
 # Projeto - Análise de Vendas
 
 ## Resumo
 
 Análise da receita da empresa Contoso por categoria de produto, região e canal de venda (canal físico e canal online), com o objetivo de indicar onde a empresa pode avaliar investimentos.
+
+![Dashboard](painel.png)
 
 ## Demanda
 
@@ -12,7 +13,7 @@ Análise da receita da empresa Contoso por categoria de produto, região e canal
 ## Base de dados e ferramentas
 
 - **Base:** ContosoRetailDW (tabelas de fato `FactSales` e `FactOnlineSales`; dimensões `DimProduct`, `DimProductSubcategory`, `DimProductCategory`, `DimStore`, `DimCustomer` e `DimGeography`)
-- **Ferramenta:** SQL Server
+- **Ferramentas:** SQL Server e Power BI
 - **Técnicas:** `JOIN`, `UNION ALL`, CTE e window function (`SUM() OVER ()`)
 - **Métrica:** receita (`SalesAmount`), em US$
 
@@ -43,12 +44,19 @@ A categoria Home Appliances apresentou a maior receita nos dois canais, enquanto
 
 ## Recomendação
 
-Os resultados indicam que a empresa pode avaliar oportunidades de investimento na categoria Home Appliances,
- principalmente na região United States e no canal físico. que apresentaram os maiores valores de receita na análise.
+Os resultados indicam que a empresa pode avaliar oportunidades de investimento na categoria Home Appliances, principalmente na região United States e no canal físico, que apresentaram os maiores valores de receita na análise.
 
 Além disso, o canal online pode ser avaliado como oportunidade de crescimento, já que na Australia ele supera o físico (US$ 0,60 Bi contra US$ 0,11 Bi).
 
 ## Limitações
+
 - A análise considera apenas receita, sem custo, margem ou lucro.
 - O "canal físico" corresponde à tabela `FactSales` inteira, o que inclui também os canais Catalog e Reseller.
+- Os gráficos de região do dashboard mostram apenas os 10 países com maior receita.
 - Não foi feita análise da evolução da receita ao longo do tempo.
+
+## Queries
+
+- `01_receita_por_categoria.sql`
+- `02_receita_por_regiao.sql`
+- `03_percentual_por_canal.sql`
