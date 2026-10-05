@@ -43,7 +43,10 @@ A categoria Home Appliances apresentou a maior receita nos dois canais, enquanto
 
 ## Recomendação
 
-Os resultados indicam que a empresa pode avaliar oportunidades de investimento na categoria Home Appliances, principalmente na região United States e no canal físico, considerando que esses segmentos apresentaram os maiores valores de receita na análise.
+Os resultados indicam que a empresa pode avaliar oportunidades de investimento na categoria Home Appliances,
+ principalmente na região United States e no canal físico. que apresentaram os maiores valores de receita na análise.
+
+Além disso, o canal online pode ser avaliado como oportunidade de crescimento, já que na Australia ele supera o físico (US$ 0,60 Bi contra US$ 0,11 Bi).
 
 ## Limitações
 - A análise considera apenas receita, sem custo, margem ou lucro.
