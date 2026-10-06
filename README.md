@@ -5,7 +5,7 @@
 
 Análise da receita da empresa Contoso por categoria de produto, região e canal de venda (canal físico e canal online), com o objetivo de indicar onde a empresa pode avaliar investimentos.
 
-![Dashboard](painel.png)
+![Dashboard](dashboard.png)
 
 ## Demanda
 
